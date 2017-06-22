@@ -12,9 +12,6 @@
 3. 默认使用启动进程内存管理 oAuth 授权返回的 token ,建议自己做一下 token 逻辑处理(譬如使用 redis 存储)  
 
 
-## 反馈/交流
-
-反馈可使用 issues 或 邮箱: imocat@qq.com  
 
 
 
