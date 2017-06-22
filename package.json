@@ -1,75 +1,15 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "ecchat@git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-        "scope": null,
-        "escapedName": "ecchat",
-        "name": "ecchat",
-        "rawSpec": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-        "spec": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-          "sshUrl": "git+ssh://git@github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-          "httpsUrl": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-          "gitUrl": "git://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-          "shortcut": "github:imocat/emchat#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-          "directUrl": "https://raw.githubusercontent.com/imocat/emchat/8800cadf56863fddbeb758122d9bc4e4b048b94a/package.json"
-        }
-      },
-      "D:\\togroup-app-service-master\\togroup-app-service-master\\togroup-app-service"
-    ]
-  ],
-  "_from": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-  "_id": "ecchat@1.0.0",
-  "_inCache": true,
-  "_location": "/ecchat",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "ecchat@git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-    "scope": null,
-    "escapedName": "ecchat",
-    "name": "ecchat",
-    "rawSpec": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-    "spec": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-      "sshUrl": "git+ssh://git@github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-      "httpsUrl": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-      "gitUrl": "git://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-      "shortcut": "github:imocat/emchat#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-      "directUrl": "https://raw.githubusercontent.com/imocat/emchat/8800cadf56863fddbeb758122d9bc4e4b048b94a/package.json"
-    }
+  "name": "emchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emchat.js",
+  "scripts": {
+
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-  "_shasum": "744536ce39ad76d4ea331576b64ef9784b2c01c8",
-  "_shrinkwrap": null,
-  "_spec": "ecchat@git+https://github.com/imocat/emchat.git#8800cadf56863fddbeb758122d9bc4e4b048b94a",
-  "_where": "D:\\togroup-app-service-master\\togroup-app-service-master\\togroup-app-service",
-  "author": {
-    "name": "imocat@qq.com"
-  },
+  "keywords": [],
+  "author": "xingfengzh_candy@163.com",
+  "license": "ISC",
   "dependencies": {
     "superagent": "^2.1.0"
-  },
-  "description": "这是一个能用的环信通信云 nodejs SDK",
-  "devDependencies": {},
-  "gitHead": "8800cadf56863fddbeb758122d9bc4e4b048b94a",
-  "keywords": [],
-  "license": "ISC",
-  "main": "emchat.js",
-  "name": "ecchat",
-  "optionalDependencies": {},
-  "readme": "# emchat\r\n\r\n这是一个能用的环信通信云 nodejs SDK  \r\n\r\n\r\n具体使用请参考 test.js 文件  \r\n接口参考了官方 SDK [https://github.com/easemob/emchat-server-examples](https://github.com/easemob/emchat-server-examples)  \r\n\r\n## 注意\r\n1. 去除了 uploadFile 接口 (个人感觉用服务端直传文件是个很不好的习惯)\r\n2. 接口大部分做了测试, 注释持续添加中\r\n3. 默认使用启动进程内存管理 oAuth 授权返回的 token ,建议自己做一下 token 逻辑处理(譬如使用 redis 存储)  \r\n\r\n\r\n## 反馈/交流\r\n\r\n反馈可使用 issues 或 邮箱: imocat@qq.com  \r\n\r\n\r\n\r\n\r\n",
-  "readmeFilename": "README.md",
-  "scripts": {},
-  "version": "1.0.0"
+  }
 }
