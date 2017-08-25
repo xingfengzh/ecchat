@@ -749,6 +749,18 @@ module.exports = function (orgName, appName, clientId, clientSecret, accessToken
 		});
 	};
 
+   /**
+    * 往群内批量删除成员
+    * @param {string} 群 ID
+    * @param {string} 要删除的成员
+    * @param {Function}
+    */
+   this.api.delGroupMembers = function (groupId, users, callback) {
+	return this.getToken(function () {
+	  this.del('/chatgroups/' + groupId + '/users/' + users, callback);
+	});
+   };
+  
 	/**
 	 * 从群组中删除指定的成员
 	 * @param  {string} 群 ID
